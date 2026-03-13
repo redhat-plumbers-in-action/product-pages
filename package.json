@@ -1,0 +1,49 @@
+{
+  "name": "product-pages",
+  "version": "1.0.0",
+  "description": "A NodeJS module to access Product Pages (PP) through the REST API.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "format": "prettier --write '**/*.ts'",
+    "format-check": "prettier --check '**/*.ts'",
+    "test": "vitest run --coverage",
+    "update-snapshots": "vitest run --update",
+    "all": "yarn run build && yarn run format && yarn test"
+  },
+  "packageManager": "yarn@4.12.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/redhat-plumbers-in-action/product-pages.git"
+  },
+  "keywords": [
+    "product-pages"
+  ],
+  "author": "Jan Macku <jamacku@redhat.com>",
+  "license": "GPL-3.0-only",
+  "bugs": {
+    "url": "https://github.com/redhat-plumbers-in-action/product-pages/issues"
+  },
+  "homepage": "https://github.com/redhat-plumbers-in-action/product-pages#readme",
+  "dependencies": {
+    "axios": "1.13.6",
+    "zod": "4.3.6"
+  },
+  "peerDependencies": {
+    "kerberos": "^7.0.0"
+  },
+  "peerDependenciesMeta": {
+    "kerberos": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@types/node": "24.12.0",
+    "@vitest/coverage-v8": "4.0.18",
+    "kerberos": "^7.0.0",
+    "prettier": "3.8.1",
+    "typescript": "5.9.3",
+    "vitest": "4.0.18"
+  }
+}

@@ -1,0 +1,9 @@
+/.github
+/coverage
+/vitest.config.ts
+/renovate.json
+/tsconfig.*
+/test
+
+*.tsbuildinfo
+.*
