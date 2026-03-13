@@ -1698,7 +1698,7 @@ __metadata:
     vitest: "npm:4.0.18"
     zod: "npm:4.3.6"
   peerDependencies:
-    kerberos: ^2.0.0
+    kerberos: ^7.0.0
   peerDependenciesMeta:
     kerberos:
       optional: true
