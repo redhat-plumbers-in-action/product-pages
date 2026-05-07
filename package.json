@@ -40,10 +40,10 @@
   },
   "devDependencies": {
     "@types/node": "24.12.2",
-    "@vitest/coverage-v8": "4.0.18",
+    "@vitest/coverage-v8": "4.1.5",
     "kerberos": "^7.0.0",
     "prettier": "3.8.1",
     "typescript": "5.9.3",
-    "vitest": "4.0.18"
+    "vitest": "4.1.5"
   }
 }
