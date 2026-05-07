@@ -39,7 +39,7 @@
     }
   },
   "devDependencies": {
-    "@types/node": "24.12.0",
+    "@types/node": "24.12.2",
     "@vitest/coverage-v8": "4.0.18",
     "kerberos": "^7.0.0",
     "prettier": "3.8.1",
