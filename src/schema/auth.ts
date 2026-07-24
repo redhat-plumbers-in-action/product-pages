@@ -16,6 +16,4 @@ export interface ApiKeyAuthOptions {
 }
 
 export type AuthOptions =
-  | OIDCAuthOptions
-  | KerberosAuthOptions
-  | ApiKeyAuthOptions;
+  OIDCAuthOptions | KerberosAuthOptions | ApiKeyAuthOptions;

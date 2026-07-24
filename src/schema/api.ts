@@ -46,18 +46,10 @@ export type ReleasesResponse = z.infer<typeof releasesSchema>;
  */
 
 export type ScheduleTaskField =
-  | 'id'
-  | 'name'
-  | 'path'
-  | 'date_start'
-  | 'date_finish'
-  | 'release_shortname';
+  'id' | 'name' | 'path' | 'date_start' | 'date_finish' | 'release_shortname';
 
 export type ScheduleTaskOrderingField =
-  | 'date_start'
-  | 'date_finish'
-  | '-date_start'
-  | '-date_finish';
+  'date_start' | 'date_finish' | '-date_start' | '-date_finish';
 
 export type ScheduleTasksQueryOptions = {
   fields?: ScheduleTaskField[];
